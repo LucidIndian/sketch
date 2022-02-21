@@ -1,0 +1,24 @@
+ /* CSS file for the Sketch TOP lesson */
+
+/* For testing: */
+* {
+  border-style: solid;
+  border-color: red;
+  border-width: 0px;  /* 0px = "off" */
+}
+
+/* Partent box for the drawings */
+#sketchArea { 
+  display: flex; /* Get the divs to go horizontally */
+  flex-wrap: wrap; /* Get the divs to go onto new rows */
+  width: 960px; /* TOP specification */
+  padding: 0px; /* So all the divs can fit */
+  margin: 0px; /* So all the divs can fit */
+  border-style: solid; /* So I can see the border */
+  border-width: 4px; /* So I can see the border */
+  border-color: blue; /* So I can see the outline */
+}
+
+.sketchDiv {
+  background-color: yellow; /* proving my JS added the class correctly */
+}
