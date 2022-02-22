@@ -12,13 +12,38 @@
   display: flex; /* Get the divs to go horizontally */
   flex-wrap: wrap; /* Get the divs to go onto new rows */
   width: 960px; /* TOP specification */
+  height: 960px; /* TOP specification */
   padding: 0px; /* So all the divs can fit */
   margin: 0px; /* So all the divs can fit */
   border-style: solid; /* So I can see the border */
   border-width: 4px; /* So I can see the border */
-  border-color: blue; /* So I can see the outline */
+  border-color: white; /* So I can see the outline */
 }
 
 .sketchDiv {
-  background-color: yellow; /* proving my JS added the class correctly */
+  background-color: #FFB612; /* proving my JS added the class correctly */
+}
+
+
+button {
+  width: 280px;
+  height: 70px;
+  font-size: 26px;
+  margin: 10px;
+}
+
+body {
+  background-color: #203731;
+}
+
+p, h1 {
+  color: white;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2.8em;
 }
